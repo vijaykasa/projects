@@ -1,0 +1,46 @@
+nav{
+    
+    height: 70px;
+    padding:15px
+   
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 10px;
+}
+
+nav img{
+    width: 100px;
+    margin-left: 15px;
+    height: 30px;
+}
+
+.header-search form{
+    border: 1px solid #ddd;
+    height: 35px;
+    margin: 0;
+    padding:0;
+    display: flex;
+}
+.header-search input{
+    width:500px;
+    padding:10px;
+    margin:0;
+    border-radius: 0;
+    border:none;
+}
+.header-search button{
+    padding:0;
+    margin:0;
+    width: 40px;
+    height:100%;
+    border:none;
+    border-radius: 0;
+}
+.header-icons{
+    font-size: 20px;
+    color: gray;
+    margin: 0;
+    padding: 0;
+    cursor:pointer;
+}

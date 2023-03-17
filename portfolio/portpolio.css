@@ -338,6 +338,35 @@
       width: calc(50vw/2);
      
     }
+    .about-container{
+      grid-template-columns: 1fr;
+     
+   
+    }
+    .about-container img{
+      width: 50%;
+       height: 50%;
+       
+
+    }
+    .aboutSection-right-side{
+       display: block
+    }
+    .aboutSection-left-side{
+      display: block;
+     
+      height: 50vh;
+    }
+    /* .about-container{
+      grid-template-columns: 1fr;
+     
+   
+    }
+    #about{
+      height: 50vh;
+    }
+   
+    */
 
 };
    

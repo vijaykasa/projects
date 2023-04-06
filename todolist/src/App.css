@@ -1,0 +1,81 @@
+body{
+  background-color: rgba(134, 134, 240, 0.87);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing:border-box
+} 
+.App{
+  width:700px;
+  /* border:2px solid black */
+}
+.container{
+  border:1px solid grey;
+  padding:10px;
+}
+input{
+  width:75%;
+  height: 40px;
+  outline: none;
+  border:none;
+  padding-left:2%;
+ 
+}
+.btn{
+  margin-left: 2%;
+  width: 20%;
+  height: 42px;
+  border:none;
+  background:rgb(121, 121, 192);
+  cursor:pointer;
+}
+.task_List{
+    list-style-type:none;
+    width :90%;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color:gray
+}
+.task_List li{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.685);
+  padding: 10px 0px;
+  position: relative;
+}
+.task_List li button,a{
+  position: absolute;
+  right:0%;
+  margin-right: 10px;
+  
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  max-width: 300px;
+  font-size: 16px;
+}
+.btn_1{
+  background-color: brown;
+  right:10%;
+  padding: 3px 8px;
+}
+.btn_2{
+  background-color: yellow;
+  padding: 5px 8px;
+  
+}
+a{
+  text-decoration: none;
+  color:black
+}
+@media screen and (max-width:720px){
+  .App{
+    width: 400px;
+  }
+  .btn{
+    font-size: 10px;
+  }
+  .btn_1{
+  right:20%;
+  }
+}

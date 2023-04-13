@@ -272,17 +272,21 @@ transition: transform 0.5s;
  .aboutSection-left-side img {
     padding: 2rem;
     aspect-ratio: 1/1;
-    animation: move 3s 1;
+    transform: translateX(-500px);
+    transition: all 2s ease;
+ }
+ .aboutSection-left-side .active{
+   transform: translateX(0px);
  }
 
- @keyframes move {
+ /* @keyframes move {
    0%{
-      transform: translateX(-500px);
+      
    }
    100%{
-      transform: translateX(0px);
+      
    }
- }
+ } */
 
  #home::before {
     content: "";
@@ -557,6 +561,9 @@ transition: transform 0.5s;
     header nav ul li {
        margin-bottom: 2rem;
     }
+    header nav ul li a{
+      margin: 0;
+    }
     .bx-menu{
       display: block;
     }
@@ -573,8 +580,6 @@ transition: transform 0.5s;
     .project-container {
        grid-template-columns: 1fr 1fr;
        row-gap: 2rem;
-
-
     }
 
     .skills-container {
@@ -596,9 +601,6 @@ transition: transform 0.5s;
 
     .about-container {
        grid-template-columns: 1fr;
-
-
-
     }
 
     .aboutSection-left-side {

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+.main-cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: #1b1c1e;
+  width: 100%;
+  padding: 1%;
+  margin-top: 5px;
+  
+}
+
+
+.card-img-top {
+  height: 70%;
+}
+.card-list {
+  margin: auto;
+
+  /* margin-bottom: 10px; */
+  height: 180px;
+}
+.heading{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+}
+@media screen and (max-width: 1172px) {
+  .main-cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+  }
+  .card-list {
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (max-width: 839px) {
+  .main-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 7%;
+  }
+  .card-list {
+    margin-bottom: 10%;
+  }
+}
+@media screen and (max-width: 608px) {
+  .main-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 7%;
+  }
+  .card-list {
+    margin-bottom: 10%;
+  }
+}
+
+/* width: 18rem; */

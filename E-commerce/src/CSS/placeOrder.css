@@ -1,0 +1,10 @@
+.orderSuucessPage{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 30px;
+}
+.button-last{
+    display: flex;
+    justify-content: space-evenly;
+}
